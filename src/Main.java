@@ -46,7 +46,7 @@ int monthNumber=5;
                 System.out.println("осень");
                 break;
             default:
-                System.out.println("такого месяца не существует");
+                System.out.println("такого месяца не существуЕт");
         }
 
 
