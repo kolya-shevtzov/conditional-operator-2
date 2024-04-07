@@ -19,7 +19,7 @@ if(clientOS == 0 && clientDeviceYear == 1){
 int year=2024;
         if (year % 4 == 0) {
             if ((year % 100 != 0) || (year % 400 == 0))
-                System.out.println(year + " год является високосным");
+                System.out.println(year + " год является високоснЫм");
              else {
                 System.out.println(year + "год не является високосным");
             }
