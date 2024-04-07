@@ -19,9 +19,9 @@ if(clientOS == 0 && clientDeviceYear == 1){
 int year=2024;
         if (year % 4 == 0) {
             if ((year % 100 != 0) || (year % 400 == 0))
-                System.out.println(year + " год является високосным");
+                System.out.println(year + " год является высокосным");
              else {
-                System.out.println(year + "год не является високосным");
+                System.out.println(year + "год не является высокосным");
             }
 int deliveryDistance=40;
              if (deliveryDistance <= 20) {System.out.println("потребуетс 1 день");}
@@ -46,7 +46,7 @@ int monthNumber=5;
                 System.out.println("осень");
                 break;
             default:
-                System.out.println("такого месяца не существуЕт");
+                System.out.println("такого месяца не существует");
         }
 
 
